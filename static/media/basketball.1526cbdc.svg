@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.479" height="46.479" viewBox="0 0 46.479 46.479">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        filter: url(#basketball);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffb4cc"/>
+    </linearGradient>
+    <filter id="basketball" x="0" y="0" width="46.479" height="46.479" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-2" transform="matrix(1, 0, 0, 1, 0, 0)">
+    <path id="basketball-2" data-name="basketball" class="cls-1" d="M24.308,4.171A14.239,14.239,0,0,0,4.171,24.308a14.245,14.245,0,0,0,17.437,2.118,1.112,1.112,0,0,0-1.153-1.9,11.973,11.973,0,0,1-5.1,1.678V15.352h4a14.107,14.107,0,0,0,1.08,4.439,1.112,1.112,0,0,0,2.049-.868,11.894,11.894,0,0,1-.9-3.571H26.2a12,12,0,0,1-1.985,5.556,1.112,1.112,0,1,0,1.85,1.237A14.2,14.2,0,0,0,24.308,4.171Zm-.419,2.92A11.948,11.948,0,0,1,26.2,13.127H21.583A12,12,0,0,1,23.89,7.091ZM13.127,2.277v10.85h-4A14.111,14.111,0,0,0,8.075,8.748a1.112,1.112,0,0,0-2.053.859,11.9,11.9,0,0,1,.874,3.52H2.277A12.034,12.034,0,0,1,13.127,2.277ZM4.59,21.389a11.948,11.948,0,0,1-2.313-6.037H6.9A12.021,12.021,0,0,1,4.59,21.389ZM13.127,26.2A11.973,11.973,0,0,1,6.1,23.071a14.245,14.245,0,0,0,3.025-7.719h4ZM15.352,2.277a11.973,11.973,0,0,1,7.024,3.131,14.228,14.228,0,0,0-3.025,7.719h-4Z" transform="translate(9 6)"/>
+  </g>
+</svg>
